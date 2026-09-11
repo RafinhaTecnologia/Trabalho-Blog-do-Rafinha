@@ -38,3 +38,11 @@ O objetivo deste trabalho é consolidar os fundamentos da Web Front-End utilizan
 1. **Clone este repositório:**
    ```bash
    git clone [https://github.com/RafinhaTecnologia/Trabalho-Blog-do-Rafinha.git](https://github.com/RafinhaTecnologia/Trabalho-Blog-do-Rafinha.git)
+---
+---
+
+## 👨‍💻 Autor
+
+Desenvolvido por **Rafael de Oliveira Anjos**  
+Estudante de Desenvolvimento de Software Multiplataforma — FATEC Olímpia  
+Entre em contato: [LinkedIn](https://www.linkedin.com/in/rafinhatecnologia/) | [GitHub](https://github.com/RafinhaTecnologia)
