@@ -1,0 +1,81 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333333;
+}
+
+/* Cabeçalho */
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 60px;
+    padding: 30px 40px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+/* Agrupa o título e a logo em linha */
+.logo-titulo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+/* Tamanho e proporção da logo no cabeçalho */
+.logo-topo {
+    width: 45px;       /* Altura/largura adequada para o topo */
+    height: 45px;
+    object-fit: contain;
+}
+
+/* Menu */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #666666;
+}
+
+/* Conteúdo Principal */
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+main h2 {
+    margin-bottom: 20px;
+}
+
+main ol {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+main p {
+    margin-bottom: 15px;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 30px 0;
+    border-top: 1px solid #e0e0e0;
+    margin-top: 60px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #666666;
+}
