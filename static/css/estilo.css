@@ -14,12 +14,12 @@ body {
 /* Cabeçalho */
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start; /* Alinha tudo à esquerda */
     align-items: center;
+    gap: 60px; /* Cria um espaço elegante entre o bloco da logo/título e o menu */
     padding: 30px 40px;
     border-bottom: 1px solid #e0e0e0;
 }
-
 /* Agrupa o título e a logo em linha */
 .logo-titulo {
     display: flex;
