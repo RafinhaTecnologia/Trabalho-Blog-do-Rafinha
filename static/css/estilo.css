@@ -14,9 +14,8 @@ body {
 /* Cabeçalho */
 header {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
-    gap: 60px;
     padding: 30px 40px;
     border-bottom: 1px solid #e0e0e0;
 }
@@ -30,9 +29,10 @@ header {
 
 /* Tamanho e proporção da logo no cabeçalho */
 .logo-topo {
-    width: 45px;       /* Altura/largura adequada para o topo */
+    width: 45px;
     height: 45px;
     object-fit: contain;
+    flex-shrink: 0;
 }
 
 /* Menu */
@@ -45,6 +45,12 @@ nav ul {
 nav a {
     text-decoration: none;
     color: #666666;
+    transition: color 0.3s ease;
+}
+
+/* Efeito ao passar o mouse */
+nav a:hover {
+    color: #0056b3;
 }
 
 /* Conteúdo Principal */
